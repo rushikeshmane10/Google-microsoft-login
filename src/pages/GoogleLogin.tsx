@@ -3,10 +3,10 @@ import { FaGoogle } from "react-icons/fa";
 import { FaMicrosoft } from "react-icons/fa";
 const GoogleLoginButton = () => {
   const google = () => {
-    window.open(`http://localhost:5000/v1/auth/google`, "_self");
+    window.open(`http://localhost:5002/v1/auth/google`, "_self");
   };
   const microsoft = () => {
-    window.open(`http://localhost:5000/v1/auth/microsoft`, "_self");
+    window.open(`http://localhost:5002/v1/auth/microsoft`, "_self");
   };
   return (
     <>
